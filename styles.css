@@ -1,0 +1,115 @@
+body {
+    background: #121212;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+}
+.stApp {
+    background: #121212;
+}
+h1, h2, h3 {
+    color: #ffffff;
+    text-align: center;
+}
+.css-1d391kg {
+    background: #1e1e1e;
+    border-right: 1px solid #333;
+}
+.stButton button {
+    background: #6a0dad;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 18px;
+    transition: background 0.3s ease;
+}
+.stButton button:hover {
+    background: #5a0c9d;
+}
+.stTextInput input {
+    background: #222;
+    color: #ffffff;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.answer-box, .history-box {
+    background: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 12px;
+    color: #e0e0e0;
+}
+.suggestion-button {
+    background: #00aaff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+.suggestion-button:hover {
+    background: #0088dd;
+}
+.stSpinner > div {
+    border-color: #00aaff transparent #00aaff transparent;
+}
+.stChatMessage, .stContainer, .stExpander, .stMarkdown, .stProgress, .stText {
+    background: transparent !important;
+    color: #e0e0e0 !important;
+}
+.stMarkdown p, .stMarkdown div {
+    color: #e0e0e0 !important;
+}
+.auth-form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #1e1e1e;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+.stTextInput input {
+    background: #333;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.stButton button[key="signin_btn"] {
+    background: #6a0dad;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.stButton button[key="forgot_password_btn"] {
+    background: none;
+    color: #888;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+}
+.stButton button[key="signup_btn"] {
+    background: #6a0dad;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.stTabs button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px 5px 0 0;
+    margin-right: 5px;
+}
+.stTabs button:hover {
+    background: #444;
+}
+.stTabs [aria-selected="true"] {
+    background: #6a0dad !important;
+    color: #fff !important;
+}
